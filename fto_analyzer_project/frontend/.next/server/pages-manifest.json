@@ -1,1 +1,10 @@
-{}
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/": "pages/index.js",
+  "/retrieval": "pages/retrieval.js",
+  "/indexing": "pages/indexing.js",
+  "/config": "pages/config.js",
+  "/analysis": "pages/analysis.js"
+}

@@ -18,3 +18,20 @@ build/
 # IDE / Editor
 .vscode/
 .idea/
+
+# Frontend / Node.js
+node_modules/
+dist/  # Spesso usato anche per build frontend
+out/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # A seconda della strategia del team, a volte è versionato
+yarn.lock         # A seconda della strategia del team, a volte è versionato
+*/.next/
+.cache/
+.output/
+
+# Build output (generico, potrebbe sovrapporsi con frontend)
+/build

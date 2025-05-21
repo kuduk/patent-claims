@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   fto-service:
@@ -32,7 +31,6 @@ services:
     working_dir: /app
     volumes:
       - ./frontend:/app
-      - /app/node_modules
     ports:
       - "3000:3000"
     env_file:
