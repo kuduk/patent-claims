@@ -1,0 +1,20 @@
+# Environment / Python
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Weaviate data volume mount
+weaviate_data/
+
+# Test output
+.coverage
+htmlcov/
+dist/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/

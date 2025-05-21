@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Test output
+.coverage
+htmlcov/
+dist/
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Weaviate data volume mount
+weaviate_data/
